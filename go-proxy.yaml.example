@@ -1,0 +1,6 @@
+serverPort: ':1988'
+proxies:
+  - target: 'https://jsonplaceholder.typicode.com/todos/1'
+    path: '/api/company'
+  - target: 'https://jsonplaceholder.typicode.com/todos/2'
+    path: '/api/notification'
